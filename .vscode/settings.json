@@ -4,5 +4,9 @@
         "exp3",
         "exp1",
         "quiz1"
-    ]
+    ],
+    "files.exclude": {
+        "**/*.exe": true,
+        "**/*.class":true
+    }
 }
