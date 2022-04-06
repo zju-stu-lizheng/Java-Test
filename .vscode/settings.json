@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "quiz1",
         "exp4",
         "exp3",
         "exp1",
-        "quiz1"
+        "exp7"
     ],
     "files.exclude": {
         "**/*.exe": true,
