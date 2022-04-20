@@ -1,0 +1,29 @@
+程序填空，不要改变与输入输出有关的语句。
+输入一个正整数repeat (0<repeat<10)，做repeat次下列运算：
+假定第一天买2个苹果，从第二天开始，每天买前一天的2倍数量，
+直至当天购买的苹果个数达到不超过n（2<=n<=100000）的最大值。
+编写程序，输入一个正整数n，求购买苹果的总数目。
+例：括号内是说明
+输入：
+2   (repeat=2)
+5
+16
+输出：
+apple counts=6    （2+4）
+apple counts=30    （2+4+8+16）
+
+
+
+import java.util.*;
+public class T1{
+public static void main(String []args){ 
+    int ri,repeat,n,s,quantity;
+    Scanner in=new Scanner(System.in);
+    repeat=in.nextInt();
+    for(ri=1;ri<=repeat;ri++){
+       n=in.nextInt();
+       /*---------*/
+       System.out.println("apple counts="+s);
+	}
+   }
+}
