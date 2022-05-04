@@ -1,0 +1,33 @@
+程序填空，不要改变与输入输出有关的语句。
+输入一个正整数repeat (0<repeat<10)，做repeat次下列运算：
+读入2 个正整数m和n(m<n)，计算并输出
+(-1)^m/m + (-1)^(m+1)/(m+1) + (-1)^(m+2)/(m+2) 
++……+(-1)^n/n (保留3位小数)。
+其中(-1)^m表示-1的m次幂。如(-1)^2=1,(-1)^3=-1
+例：括号内是说明
+输入：
+2  (repeat=2)
+1 3 2 5
+输出：
+s=-0.833   (-1+1/2-1/3)
+s=0.217    (1/2-1/3+1/4-1/5)
+ 
+
+
+
+
+import java.util.*;
+public class T{ 
+public static void main(String []args){ 
+    int ri,repeat,m,n,i,flag;
+    double s;
+    Scanner in=new Scanner(System.in);
+    repeat=in.nextInt();
+    for(ri=1;ri<=repeat;ri++){
+	   m=in.nextInt();
+	   n=in.nextInt();
+	   /*---------*/
+  	   System.out.println("s="+Math.round(s*1000)/1000.);
+	 }
+   }
+}

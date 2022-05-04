@@ -1,0 +1,32 @@
+程序填空，不要删除原有的输入输出有关的语句。
+输入一个正整数repeat (0<repeat<10)，做repeat次下列运算：
+读入一批数据（数据个数>=1），以输入999表示输入结束，
+统计这批数据中的素数个数，并求其最小值进行输出
+（999只表示输入结束，不在统计范围内）。
+输入格式：
+n=in.nextInt();
+例：括号内是说明
+输入：
+1
+324 433 451 31 324 -123 -2 41 999
+输出：
+素数个数=3
+最小值=-123
+
+
+
+
+
+import java.util.*;
+public class T1{ 
+public static void main(String []args){ 
+    int ri,repeat,n,min,count,i;
+    Scanner in=new Scanner(System.in);
+    repeat=in.nextInt();
+    for(ri=1;ri<=repeat;ri++){
+       /*---------*/
+     System.out.println("素数个数="+count);
+     System.out.println("最小值="+min);
+     }
+   }
+}
